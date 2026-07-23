@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query-Form</title>
+
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/css/intlTelInput.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/tom-select/dist/css/tom-select.css">
+</head>
+<body>
+
+<h1>ZR Industries - Inquiry Form</h1>
+
+<form>
+
+<label for="first_name">Enter Your First Name:</label>
+<input type="text" name="first_name" id="first_name" required placeholder="Scuba">
+
+<br> <br>
+
+<div>
+
+<label for="last_name">Enter Your Last Name:</label>
+<input type="text" name="last_name" id="last_name" required placeholder="Boi">
+
+<br> <br>
+
+<label for="email">Enter Your Email:</label>
+<input type="email" name="email" id="email" required placeholder="scubaboi@instagram.com">
+
+<br> <br>
+
+<label for="phone">Enter Your Number:</label>
+<input type="tel" name="phone" id="phone" placeholder="3000010001">
+
+<br> <br>
+
+<label for="budget">What is your budget?</label>
+<input type="number" name="budget" id="budget" placeholder="200,000$">
+
+<br> <br>
+
+</div>
+
+<div>
+<p>I want to:</p>
+<label for="buy">
+    <input type="radio" name="purpose" value="Buy">Buy
+</label>
+<br>
+<label for="sell">
+    <input type="radio" name="purpose" value="Sell">Sell
+</label>
+<br>
+<label for="rent">
+    <input type="radio" name="purpose" value="Rent">Rent
+</label>
+<br>
+</div>
+
+<div>
+<p>Property Type:</p>
+<label for="apartment">
+    <input type="radio" name="property_type" value="Apartment">Apartment
+</label> <br>
+<label for="plot">
+    <input type="radio" name="property_type" value="Plot">Plot
+</label> <br>
+<label for="house">
+    <input type="radio" name="property_type" value="House">House
+</label> <br>
+<label for="commercial">
+    <input type="radio" name="property_type" value="Commercial">Commercial
+</label> <br>
+</div>
+
+<div>
+    <label for="location">Preferred Location:</label>
+    <select name="location" id="location">
+        <option value="">Select an Option</option>
+
+        <option value="DHA Phase 1">DHA Phase 1</option>
+        <option value="DHA Phase 2">DHA Phase 2</option>
+        <option value="DHA Phase 3">DHA Phase 3</option>
+        <option value="DHA Phase 4">DHA Phase 4</option>
+        <option value="DHA Phase 5">DHA Phase 5</option>
+        <option value="DHA Phase 6">DHA Phase 6</option>
+
+        <option value="Bahria-town">Bahria Town-Lahore</option>
+        <option value="LDA">LDA</option>
+        <option value="Johar Town">Johar Town</option>
+        <option value="Model Town">Model Town</option>
+
+        <option value="gulberg-1">Gulberg I</option>
+        <option value="gulberg-2">Gulberg II</option>
+        <option value="gulberg-3">Gulberg III</option>
+        <option value="gulberg-4">Gulberg IV</option>
+        <option value="gulberg-5">Gulberg V</option>
+
+    </select>
+</div>
+
+<div>
+    <label for="requirements">Additional Requirements: <br> 
+        <textarea name="requirements" id="requirements" placeholder="Any specific information regarding your request?" ></textarea>
+    </label>
+</div>
+
+<div>
+    <button type="submit">Submit</button>
+</div>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/js/intlTelInput.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

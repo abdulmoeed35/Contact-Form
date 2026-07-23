@@ -1,0 +1,2 @@
+This is the project of making a website form for getting the leads for a real estate company. 
+The form is connected to n8n which then store the information of potential customers in the Google Sheets and then Gemini model converts that into a plain text format and send an Email to the customer. 
