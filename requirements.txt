@@ -1,8 +1,1 @@
-HTML5
-CSS3
-JS
-int-tel-input
-cdn-tools
-n8n
-Google-Sheets
-Gmail
+HTML
