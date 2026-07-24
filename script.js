@@ -31,7 +31,7 @@ form.addEventListener("submit", async (e) => {
 const formData = new FormData(form);
 const data = Object.fromEntries(formData.entries());
 
-await fetch("https://moeedflows.app.n8n.cloud/webhook-test/new-lead", {
+await fetch("https://moeedflows.app.n8n.cloud/webhook/new-lead", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
